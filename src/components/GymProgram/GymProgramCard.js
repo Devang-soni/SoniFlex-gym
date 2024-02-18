@@ -12,7 +12,6 @@ const GymProgramCard = ({ title, desc }) => (
     </div>
   </div>
 );
-
 const styles = css`
   width: 100%;
   max-width: 47%;
