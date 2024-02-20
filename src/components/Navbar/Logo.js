@@ -3,7 +3,7 @@ import { css, jsx } from "@emotion/core";
 
 const Logo = () => (
   <h2 css={styles}>
-    STRENGTH <span>PALACE</span>
+    SONIFLEX <span> GYM </span>
   </h2>
 );
 
