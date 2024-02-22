@@ -4,8 +4,13 @@ import React from "react";
 
 const Map = () => (
   <div css={styles} className="mapouter">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d375.4788654961346!2d72.84253368391795!3d19.185515541116306!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b6fad76eee67%3A0xe4cedb89d25480f0!2sGajanan%20Niwas%20CHSL!5e1!3m2!1sen!2sin!4v1708405581905!5m2!1sen!2sin" 
+    {/* <iframe
+      id="gmap_canvas"
+      src="https://maps.google.com/maps?q=Av.%20L%C3%BAcio%20Costa&t=&z=13&ie=UTF8&iwloc=&output=embed"
+      
+    ></iframe> */}
 
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d358.4366099624645!2d72.84254340026921!3d19.185586419068464!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b7004317a6bb%3A0x3da67b8625085d99!2sSoniflex%20Gym!5e1!3m2!1sen!2sin!4v1708590628392!5m2!1sen!2sin" 
     ></iframe>
   </div>
 );
