@@ -7,6 +7,7 @@ const Link = ({ name, linkTo }) => (
   </a>
 );
 
+
 const styles = css`
   text-decoration: none;
   display: inline-block;
