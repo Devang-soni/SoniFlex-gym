@@ -8,7 +8,7 @@ import Container from "../GlobalComponents/Container";
 
 const Classes = ({ text }) => {
   const [training, setTraining] = useState("FirstClass");
-
+  
   return (
     <section css={styles} className="ourClasses" id="ourClasses">
       <h2>
